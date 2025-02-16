@@ -79,6 +79,7 @@ export default function ImageSwiper() {
           >
             {/* Map through the images array to render slides dynamically */}
             {images.map((image, index) => (
+              
               <SwiperSlide
                 key={image.id}
                 className="relative transition-transform duration-300"
@@ -89,14 +90,18 @@ export default function ImageSwiper() {
                     alt={`Slide ${index + 1}`}
                     className={`object-cover rounded-lg ${
                       // Apply smaller size to the centered slide
-                      'swiper-slide-active' ? 'scale-90' : 'scale-75'
+                      'swiper-slide-active' ? 'w-full h-54' : 'w-full h-auto'
                     } transition-transform duration-300`}
                     style={{ maxWidth: '100%', maxHeight: '100%' }} // Ensure original size
                   />
+                  
                 </div>
+            
               </SwiperSlide>
+              
             ))}
           </Swiper>
+          
 
           {/* Navigation Buttons */}
           

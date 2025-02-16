@@ -11,11 +11,11 @@ const Footer = () => {
     <footer className="bg-gradient-to-b from-black to-[#2c535a] text-white relative  border-b-[15px] border-[#6c7686]">
       {/* Background Logo */}
       <div className="absolute inset-0 z-0">
-        <img src={bglogo1} alt="Background Logo" className="w-auto h-[520px] object-cover opacity-5" />
+        <img src={bglogo1} alt="Background Logo" className="w-auto h-[450px] object-cover opacity-5" />
       </div>
 
       <div className="relative z-10">
-        <div className="pt-16 pb-4 max-w-full mx-auto">
+        <div className="pt-6 pb-4 max-w-full mx-auto">
           {/* Top Section */}
           <div className="flex md:flex-row flex-col md:gap-0 gap-8 ">
             {/* Left Section */}
@@ -27,8 +27,8 @@ const Footer = () => {
           
             {/* Middle Section */}
             <div className="font-michroma lg:w-3/5">
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-4">
-  {/* Right Section - Image (Comes First on Mobile) */}
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center ">
+ 
  
 
   {/* Left Section - Form */}
@@ -51,22 +51,22 @@ const Footer = () => {
 </div>
 
 
-              <div className="mt-8 border-t border-gray-400 pt-8">
+              <div className="mt-2 border-t border-gray-400 pt-6">
                 <div className="grid grid-cols-2 md:grid-cols-3 ml-6 lg:ml-0 ">
                   <div className="flex flex-col gap-2 text-lg lg:text-xl">
                     <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Brochure</button>
                     <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Membership</button>
-                  
+                    <h3 className="font-semibold mb-2 font-michroma text-lg ml-8">COMPANY</h3>
                   </div>
 
                   <div className="flex flex-col items-center md:items-start font-poppins gap-1 text-xl">
-                    <h3 className="font-semibold mb-2 font-michroma text-lg lg:text-xl">COMPANY</h3>
+                   
                     <p className="text-gray-300">About Us</p>
                     <p className="text-gray-300">Career</p>
                     <p className="text-gray-300">Contact Us</p>
                   </div>
                   </div>
-                  <div className="flex flex-col items-center md:items-end mt-8 lg:-mt-16 md:mr-20 ">
+                  <div className="flex flex-col items-center justify-center md:items-end mt-8 lg:-mt-16 md:mr-20 ">
                     <div className="flex gap-4">
                       <span className="bg-white p-3 rounded-full">
                       <FaFacebookF size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
@@ -84,7 +84,7 @@ const Footer = () => {
                       <FaXTwitter size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
                     </div>
-                    <div className="text-center text-gray-300 text-sm mt-4 font-poppins pt-2">
+                    <div className="text-center justify-center items-center text-gray-300 text-sm mt-4 font-poppins pt-2">
                       &copy; Copyright 2024 All Rights Reserved
                     </div>
                   </div>
