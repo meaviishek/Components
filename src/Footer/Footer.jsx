@@ -53,14 +53,14 @@ const Footer = () => {
 
               <div className="mt-8 border-t border-gray-400 pt-8">
                 <div className="grid grid-cols-2 md:grid-cols-3 ml-6 lg:ml-0 ">
-                  <div className="flex flex-col gap-2 text-xs lg:text-lg">
+                  <div className="flex flex-col gap-2 text-lg lg:text-xl">
                     <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Brochure</button>
                     <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Membership</button>
                   
                   </div>
 
-                  <div className="flex flex-col items-center md:items-start font-poppins gap-2">
-                    <h3 className="font-semibold mb-2 font-michroma text-xs lg:text-lg">COMPANY</h3>
+                  <div className="flex flex-col items-center md:items-start font-poppins gap-1 text-xl">
+                    <h3 className="font-semibold mb-2 font-michroma text-lg lg:text-xl">COMPANY</h3>
                     <p className="text-gray-300">About Us</p>
                     <p className="text-gray-300">Career</p>
                     <p className="text-gray-300">Contact Us</p>
