@@ -95,21 +95,32 @@ const Footer = () => {
 
           {/* Bottom Section */}
           <div className="mt-4 border-t border-gray-400 font-semibold pt-4 text-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-              <div className="flex items-center justify-center  gap-2 text-gray-200">
-              <span className="bg-white p-3 rounded-full"><FaPhoneAlt color="black" /> </span>+91 9928189510
-              </div>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    {/* Phone */}
+    <div className="flex items-center justify-center gap-2 text-gray-200 hover:text-white transition-colors duration-300">
+      <span className="bg-white p-3 rounded-full hover:bg-gray-100 transition-colors duration-300">
+        <FaPhoneAlt className="w-4 h-4 md:w-6 md:h-6 lg:w-6 lg:h-6" color="black" />
+      </span>
+      +91 9928189510
+    </div>
 
-              <div className="flex items-center justify-center  gap-2 text-gray-200">
-              <span className="bg-white p-3 rounded-full"><FaEnvelope color="black"/></span>
-               contact@anantvega.com
-              </div>
+    {/* Email */}
+    <div className="flex items-center justify-center gap-2 text-gray-200 hover:text-white transition-colors duration-300">
+      <span className="bg-white p-3 rounded-full hover:bg-gray-100 transition-colors duration-300">
+        <FaEnvelope className="w-4 h-4 md:w-6 md:h-6 lg:w-6 lg:h-6" color="black" />
+      </span>
+      contact@anantvega.com
+    </div>
 
-              <div className="flex items-center justify-center  gap-2 text-gray-200">
-              <span className="bg-white p-3 rounded-full"><FaMapMarkerAlt color="black"/></span> Mumbai, Maharashtra, India
-              </div>
-            </div>
-          </div>
+    {/* Location */}
+    <div className="flex items-center justify-center gap-2 text-gray-200 hover:text-white transition-colors duration-300">
+      <span className="bg-white p-3 rounded-full hover:bg-gray-100 transition-colors duration-300">
+        <FaMapMarkerAlt className="w-4 h-4 md:w-6 md:h-6 lg:w-6 lg:h-6" color="black" />
+      </span>
+      Mumbai, Maharashtra, India
+    </div>
+  </div>
+</div>
         </div>
       </div>
     </footer>
