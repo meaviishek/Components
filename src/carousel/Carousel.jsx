@@ -6,6 +6,8 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import { GrNext } from "react-icons/gr";
+import { MdNavigateNext,MdNavigateBefore } from "react-icons/md";
+
 import { GrPrevious } from 'react-icons/gr';
 
 // Example image data (replace with your own images)
@@ -98,14 +100,17 @@ export default function ImageSwiper() {
 
           {/* Navigation Buttons */}
           
-      <div className="flex justify-center gap-4 mt-4">
-            <button className="swiper-button-prev  text-white px-4 py-2  hover:scale-110 transition-all duration-300">
-              <GrPrevious  />
-            </button>
-            <button className="swiper-button-next  text-white px-4 py-2  hover:scale-110 duration-300 transition-all">
-              <GrNext  />
-            </button>
-          </div>
+          <div className="flex justify-center gap-4 mt-4">
+  {/* Previous Button */}
+  <button className="swiper-button-prev text-white px-6 py-6 rounded-full hover:scale-110 transition-all duration-300  flex items-center justify-center">
+    <MdNavigateBefore />
+  </button>
+
+  {/* Next Button */}
+  <button className="swiper-button-next text-white px-6 py-6 rounded-full    hover:scale-110 transition-all duration-300  flex items-center justify-center">
+    <MdNavigateNext  />
+  </button>
+</div>
       
         </div>
     
