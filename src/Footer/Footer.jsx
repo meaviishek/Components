@@ -51,7 +51,7 @@ const Footer = () => {
 </div>
 
 
-              <div className="mt-2 border-t border-gray-400 pt-6">
+              <div className="md:mt-2 mt-8 border-t border-gray-400 pt-6">
                 <div className="grid grid-cols-2 md:grid-cols-3 ml-6 lg:ml-0 ">
                   <div className="flex flex-col gap-2 text-lg lg:text-xl">
                     <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Brochure</button>
@@ -95,7 +95,7 @@ const Footer = () => {
 
           {/* Bottom Section */}
           <div className="mt-4 border-t border-gray-400 font-semibold pt-4 text-2xl">
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
     {/* Phone */}
     <div className="flex items-center justify-center gap-2 text-gray-200 hover:text-white transition-colors duration-300">
       <span className="bg-white p-3 rounded-full hover:bg-gray-100 transition-colors duration-300">
