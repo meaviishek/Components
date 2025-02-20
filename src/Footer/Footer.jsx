@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-b from-black to-[#2c535a] text-white relative  border-b-[15px] border-[#6c7686]">
       {/* Background Logo */}
       <div className="absolute inset-0 z-0">
-        <img src={bglogo1} alt="Background Logo" className="w-auto h-[450px] object-cover opacity-5" />
+        <img src={bglogo1} alt="Background Logo" className="w-auto h-full object-cover opacity-5" />
       </div>
 
       <div className="relative z-10">
@@ -27,10 +27,8 @@ const Footer = () => {
           
             {/* Middle Section */}
             <div className="font-michroma lg:w-3/5">
-            <div className="flex flex-col-reverse md:flex-row justify-between items-center ">
- 
- 
-
+            <div className="flex flex-col-reverse gap-16 md:flex-row justify-between items-center ">
+   
   {/* Left Section - Form */}
   <div className="flex flex-col items-center md:items-start">
     <h3 className="text-2xl font-medium mb-4">Fill the Space......</h3>
@@ -45,17 +43,17 @@ const Footer = () => {
       </button>
     </div>
   </div>
-  <div className="flex flex-col items-center md:items-end md:mr-20">
+  <div className="flex flex-col items-center md:items-end sm:4 md:mr-10 lg:mr-20">
     <img src={india} alt="Make in India" className="w-auto h-32" />
   </div>
 </div>
 
 
               <div className="md:mt-2 mt-8 border-t border-gray-400 pt-6">
-                <div className="grid grid-cols-2 md:grid-cols-3 ml-6 lg:ml-0 ">
+                <div className="grid grid-cols-2 sm:grid-cols-3 ml-6 lg:ml-0 gap-20 ">
                   <div className="flex flex-col gap-2 text-lg lg:text-xl">
-                    <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Brochure</button>
-                    <button className="font-semibold mb-2 flex items-center gap-2"><MdDownloadForOffline size={25}/>Membership</button>
+                    <button className="font-semibold mb-2 flex items-center gap-2 hover:scale-105 transition-all duration-300"><MdDownloadForOffline size={25}/>Brochure</button>
+                    <button className="font-semibold mb-2 flex items-center gap-2 hover:scale-105 transition-all duration-300"><MdDownloadForOffline size={25}/>Membership</button>
                     <h3 className="font-semibold mb-2 font-michroma text-lg ml-8">COMPANY</h3>
                   </div>
 
@@ -66,21 +64,21 @@ const Footer = () => {
                     <p className="text-gray-300">Contact Us</p>
                   </div>
                   </div>
-                  <div className="flex flex-col items-center justify-center md:items-end mt-8 lg:-mt-16 md:mr-20 ">
+                  <div className="flex flex-col items-center justify-center  lg:items-end mt-8 lg:-mt-16 md:mr-20 ">
                     <div className="flex gap-4">
-                      <span className="bg-white p-3 rounded-full">
+                      <span className="bg-white p-2 rounded-full hover:scale-105 transition-all duration-300">
                       <FaFacebookF size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
-                      <span className="bg-white p-3 rounded-full">
+                      <span className="bg-white p-2 rounded-full hover:scale-105 transition-all duration-300">
                       <FaLinkedinIn size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
-                      <span className="bg-white p-3 rounded-full">
+                      <span className="bg-white p-2 rounded-full hover:scale-105 transition-all duration-300">
                       <FaInstagram size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
-                      <span className="bg-white p-3 rounded-full">
+                      <span className="bg-white p-2 rounded-full hover:scale-105 transition-all duration-300">
                       <FaYoutube size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
-                      <span className="bg-white p-3 rounded-full">
+                      <span className="bg-white p-2 rounded-full hover:scale-105 transition-all duration-300">
                       <FaXTwitter size={25} className="text-gray-800 cursor-pointer hover:text-gray-900 transition-colors" />
                       </span>
                     </div>
