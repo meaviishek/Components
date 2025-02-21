@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="relative z-10">
         <div className="pt-6 pb-4 max-w-full mx-auto">
           {/* Top Section */}
-          <div className="flex md:flex-row flex-col md:gap-0 gap-8 ">
+          <div className="flex sm:flex-col lg:flex-row flex-col md:gap-0 gap-8 ">
             {/* Left Section */}
          
             <div className="flex flex-col items-center justify-center md:w-2/5 ">
@@ -27,7 +27,7 @@ const Footer = () => {
           
             {/* Middle Section */}
             <div className="font-michroma lg:w-3/5">
-            <div className="flex flex-col-reverse gap-16 md:flex-row justify-between items-center ">
+            <div className="flex flex-col-reverse gap-6 lg:flex-row mb-4 justify-between items-center ">
    
   {/* Left Section - Form */}
   <div className="flex flex-col items-center md:items-start">
@@ -44,7 +44,7 @@ const Footer = () => {
     </div>
   </div>
   <div className="flex flex-col items-center md:items-end sm:4 md:mr-10 lg:mr-20">
-    <img src={india} alt="Make in India" className="w-auto h-32" />
+    <img src={india} alt="Make in India" className="w-32 h-auto" />
   </div>
 </div>
 
